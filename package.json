@@ -1,6 +1,6 @@
 {
   "name": "simple-mail-smtp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A straightforward Node.js library that enables you to launch your own native incoming SMTP server, effortlessly.",
   "sideEffects": false,
   "repository": {
@@ -8,7 +8,7 @@
     "url": "git+https://github.com/BrianWalczak/SimpleMail.git"
   },
   "files": [
-    "lib",
+    "index.js",
     "LICENSE",
     "package.json",
     "README.md"
