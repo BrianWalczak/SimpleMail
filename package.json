@@ -1,6 +1,6 @@
 {
   "name": "simple-mail-smtp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A straightforward Node.js library that enables you to launch your own native incoming SMTP server, effortlessly.",
   "sideEffects": false,
   "repository": {

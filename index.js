@@ -23,7 +23,7 @@ class SimpleMail {
 				const parsed = await simpleParser(email);
 				
 				if (this.verifyDKIMFlag) {
-					const dkimVerified = await this.verifyDKIM(email);
+					const dkimVerified = await this.verifyDKIMFunc(email);
 					if (dkimVerified) {
 						this.handleEmail(parsed);
 					}
