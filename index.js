@@ -65,6 +65,12 @@ class SimpleMail {
       }
     });
   }
+	
+	handleEmail(parsedEmail) {
+		if (this.emailHandler) {
+			this.emailHandler(parsedEmail);
+		}
+	}
 
   catch(handler) {
     this.emailHandler = handler;
