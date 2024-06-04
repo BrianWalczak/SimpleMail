@@ -10,7 +10,7 @@ To get started with launching your SMTP server, you'll need to initialize it and
 Additionally, you'll need to provide a callback function using the `catch()` method. This function will be invoked whenever a new email is received to your SMTP server.
 
 ```js
-const SimpleMail = require('simple-mail');
+const SimpleMail = require('simple-mail-smtp');
 const server = new SimpleMail();
 const port = 25;
 
